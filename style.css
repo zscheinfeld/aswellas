@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+  height: 7vh;
+  width: 100vw;
+  background-color: white;
+  border-bottom: 1px solid lightgrey ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(37, 36, 65);
+}
+
+.menuright{
+  padding-right: 30px;
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+}
+
+.menuitemright{
+  padding: 20px;
+  color: darkgray;
+}
+
+.pagetitle{
+  padding-left: 50px;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 18px;
+  color:rgb(0, 110, 255);
+}
+
+
+
+
+.grid {
+    height: 93vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+
+.griditem{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.infocontainer{
+    height: 100%;
+    width: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.griditemsmall{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    transition: width .7s;
+}
+
+.infocontainerexpand{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    transition: width .7s;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.header{
+    font-family: 'Xanh Mono', monospace;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    padding: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 40px;
+    color: rgb(255, 0, 255);
+}
+
+.body{
+  background-color: white;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    padding: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(37, 36, 65);
+    
+}
+
+.image{
+  background-color: white;
+    height: 80vh;
+    /* width: 100%; */
+    margin-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+   
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;    
+}
+
+
+
+div.vis-network div.vis-navigation div.vis-button.vis-up, 
+div.vis-network div.vis-navigation div.vis-button.vis-down, 
+div.vis-network div.vis-navigation div.vis-button.vis-left, 
+div.vis-network div.vis-navigation div.vis-button.vis-right, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomIn, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomOut, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
+  background-image: none !important;
+}
+
+div.vis-network div.vis-navigation div.vis-button:hover {
+  box-shadow: none !important;
+}
+
+/* .vis-button:after {
+  font-size: 2em;
+  color: gray;
+}
+
+.vis-button:hover:after {
+  font-size: 2em;
+  color: lightgray;
+}
+
+.vis-button.vis-up:after {
+  content: "▲";
+}
+
+.vis-button.vis-down:after {
+  content: "▼";
+}
+
+.vis-button.vis-left:after {
+  content: "e5cb";
+}
+
+.vis-button.vis-right:after {
+  content: "▶";
+}
+
+.vis-button.vis-zoomIn:after {
+  content: "+";
+  font-weight: bold;
+}
+
+.vis-button.vis-zoomOut:after {
+  content: "−";
+  font-weight: bold;
+}
+
+.vis-button.vis-zoomExtends:after {
+  content: "⤧";
+} */
